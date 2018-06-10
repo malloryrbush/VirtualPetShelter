@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    abstract class Manager : Employee
+    public abstract class Manager : Employee
     {
         public override void Adopt()
         {

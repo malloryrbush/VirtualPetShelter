@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    abstract class Employee
+    public abstract class Employee
     {
         //FIELDS/PROPERTIES
-        public int EmployeeNum { get; set; }
+        public int EmployeeID { get; set; }
 
         //METHODS
         public void FeedPets()

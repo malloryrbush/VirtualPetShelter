@@ -14,21 +14,21 @@ namespace VPShelter
         List<Manager> managers = new List<Manager>();
 
 
-        public void SetVirtualPet(VirtualPet pets)
+        public void SetVirtualPet(VirtualPet pet)
         {
-            pets.Add(pets);
+            pets.Add(pet);
         }
-        public void SetEmployee(Employee employees)
+        public void SetEmployee(Employee employee)
         {
-            employees.Add(employees);
+            employees.Add(employee);
         }
-        public void SetVolunteer(Volunteer volunteers)
+        public void SetVolunteer(Volunteer volunteer)
         {
-            volunteers.Add(volunteers);
+            volunteers.Add(volunteer);
         }
-        public void SetManager(Manager managers)
+        public void SetManager(Manager manager)
         {
-            managers.Add(managers);
+            managers.Add(manager);
         }
 
         //Getting the objects is the list 
