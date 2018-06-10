@@ -9,7 +9,7 @@ namespace VPShelter
     class VirtualPetShelter
     {
         List<VirtualPet> pets = new List<VirtualPet>();
-        List<Employee> employees = new List<Employee>();
+        //List<Employee> employees = new List<Employee>();
         List<Volunteer> volunteers = new List<Volunteer>();
         List<Manager> managers = new List<Manager>();
 
@@ -18,10 +18,10 @@ namespace VPShelter
         {
             pets.Add(pet);
         }
-        public void SetEmployee(Employee employee)
-        {
-            employees.Add(employee);
-        }
+        //public void SetEmployee(Employee employee)
+        //{
+        //    employees.Add(employee);
+        //}
         public void SetVolunteer(Volunteer volunteer)
         {
             volunteers.Add(volunteer);
@@ -31,15 +31,15 @@ namespace VPShelter
             managers.Add(manager);
         }
 
-        //Getting the objects is the list 
+        //GETTING OBJECTS IN THE LIST
         public List<VirtualPet> GetVirtualPet()
         {
             return pets;
         }
-        public List<Employee> GetEmployee()
-        {
-            return employees;
-        }
+        //public List<Employee> GetEmployee()
+        //{
+        //    return employees;
+        //}
         public List<Volunteer> GetVolunteer()
         {
             return volunteers;
@@ -48,5 +48,7 @@ namespace VPShelter
         {
             return managers;
         }
+
+        //I had an "employee" list at first but I don't think I need it? Because the employees are just the managers and volunteers? 
     }
 }

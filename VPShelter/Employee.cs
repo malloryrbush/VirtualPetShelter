@@ -8,18 +8,23 @@ namespace VPShelter
 {
     public abstract class Employee
     {
-        //FIELDS/PROPERTIES
+        //EXTRA EMPLOYEE PROPERTY
         public int EmployeeID { get; set; }
+
+        public Employee()
+        {
+            //DEFAULT CONSTRUCTOR
+        }
 
         //METHODS
         public void FeedPets()
         {
-
-        }
+          
+        } 
 
         public void WaterPets()
         {
-
+           
         }
 
         public void ViewStatus()
