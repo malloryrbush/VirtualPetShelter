@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    public class Pickle : VirtualPet
+    public class Dog : VirtualPet
     {
         public string TypeOfAnimal { get; set; }
         public string Diet { get; set; }
 
-        public Pickle(string TypeOfAnimal, string Diet)
+        public Dog(string TypeOfAnimal, string Diet)
         {
             this.TypeOfAnimal = TypeOfAnimal;
             this.Diet = Diet;
-        }
-
-        public void GetStatus()
-        {
-
         }
     }
 }

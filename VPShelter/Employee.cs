@@ -17,33 +17,25 @@ namespace VPShelter
         }
 
         //METHODS
-        public void FeedPets()
+        public virtual string FeedPets()
         {
-          
-        } 
-
-        public void WaterPets()
-        {
-           
+            return "All pets have been fed!";
         }
 
-        public void ViewStatus()
+        public virtual string WaterPets()
         {
-
+            return "You gave all the pets water!";
         }
 
-        public void PlayWithPets()
+        public virtual string PlayWithPets()
         {
-
+            return "You played with all the pets!";
         }
 
         //ABSTRACT METHODS
-        public abstract void ClockOut();
+        public abstract string ClockOut();
 
-        public abstract void Adopt();
+        public abstract string Adopt();
 
     }
-
-    
-
 }

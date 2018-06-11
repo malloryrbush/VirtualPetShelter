@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VPShelter
 {
-    class VirtualPet
+    public class VirtualPet
     {
         public string Name { get; set; }
         public string Description { get; set; }
@@ -19,7 +19,7 @@ namespace VPShelter
         {
             //DEFAULT CONSTRUCTOR
         }
-        
+
         //CONSTRUCTOR CONTAINING ONLY NAME AND DESCRIPTION
         public VirtualPet(string Name, string Description)
         {
@@ -37,6 +37,22 @@ namespace VPShelter
             this.ThirstLevel = ThirstLevel;
             this.BoredLevel = BoredLevel;
             this.AdoptionStatus = AdoptionStatus;
+        }
+        //I'm not really understanding why overloaded constructors are useful?
+
+        public int GetHunger()
+        {
+            return HungerLevel;
+        }
+
+        public int GetThirst()
+        {
+            return ThirstLevel;
+        }
+
+        public int GetBored()
+        {
+            return BoredLevel;
         }
     }
 }
