@@ -38,7 +38,6 @@ namespace VPShelter
             this.BoredLevel = BoredLevel;
             this.AdoptionStatus = AdoptionStatus;
         }
-        //I'm not really understanding why overloaded constructors are useful?
 
         public int GetHunger()
         {
